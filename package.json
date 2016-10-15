@@ -1,0 +1,45 @@
+{
+  "name": "game-discover",
+  "version": "1.0.0",
+  "description": "Game Recommender",
+  "scripts": {
+    "start": "webpack-dashboard -- webpack-dev-server",
+    "build": "webpack",
+    "test": "webpack-dashboard -- webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanseany/game-discover.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanseany/game-discover/issues"
+  },
+  "homepage": "https://github.com/seanseany/game-discover#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "clean-webpack-plugin": "^0.1.13",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "purifycss-webpack-plugin": "^2.0.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "^0.2.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.9"
+  },
+  "dependencies": {
+    "material-ui": "^0.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-tap-event-plugin": "^1.0.0"
+  }
+}
